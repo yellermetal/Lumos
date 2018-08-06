@@ -1,8 +1,8 @@
-
 /*
-*	HopcroftKarp implementation
+*	HopcroftKarp header
 *	Language: C
 *	Author: Ariel Livshits 2018
+*	Implementation based of code in the following url: https://sites.google.com/site/indy256/algo_cpp/hopcroft_karp
 */
 
 /* Includes */
