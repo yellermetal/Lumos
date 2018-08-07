@@ -6,21 +6,10 @@
 
 #include "SMG.h"
 
-#define LIGHT_CAP 0.3
-#define HEAVY_CAP 0.7
-
-
 void swap(int* elem1, int* elem2) {
 	int tmp = *elem1;
 	*elem1 = *elem2;
 	*elem2 = tmp;
-}
-
-int bernoulli_sample(double p) {
-	struct timespec tv;
-	clock_gettime(CLOCK_PROCESS_CPUTIME_ID, &tv);
-	srand48(tv.tv_nsec);
-	return drand48() < p;	
 }
 
 int randInt(int range[2]) {
@@ -30,22 +19,6 @@ int randInt(int range[2]) {
 	return (int)(drand48()*(1 + range[1] - range[0])) + range[0];
 }
 
-void Knuth_random_select(int array[], int size, int numRand) {
-	
-	if (numRand == 0) return;
-		
-	int chosen = 0;
-	double rem_size, rem_numRand;
-	
-	for (int i = 0; i < size; i++) {
-		rem_size = size - i;
-		rem_numRand = numRand - chosen;
-		if (bernoulli_sample(rem_numRand/rem_size)) {
-			array[i] = 1;
-			chosen++;
-		}
-	}
-}
 
 void shuffle(int array[], int size) {
 	struct timespec tv;
