@@ -36,7 +36,7 @@ The repository contains implementations of four OCS scheduling algorithms:
     
    main.c - the 'main' function of the program 'decomp'. 'main' recieves parameters from 'analysis.py', then calls upon the sparse matrix generator to get the input, then calls upon the scheduling algorithms to decompse the matrix. Finally, 'main' measures CPU run-time (in nano-seconds), as well as decomposition length and demand completion time. The output is a file containing mean and standard deviation of the three measurements, mentioned above, over the number of trails given.
     
-analysis.py (python 2.7) - sets the parameters for 'decomp':
+**analysis.py (python 2.7)** - sets the parameters for 'decomp':
     
     e.g.:
   	params['trials'] = 100
