@@ -15,9 +15,9 @@ The repository contains implementations of four OCS scheduling algorithms:
 
   -- Birkhoff–von Neumann Decomposition (BvN)* [PDF article](https://hal.inria.fr/hal-01270331/document)
   
-  -- Solstice [PDF article](http://delivery.acm.org/10.1145/2840000/2836126/a41-liu.pdf?ip=77.138.143.11&id=2836126&acc=OA&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E11FD0E54F300593A&__acm__=1533657354_234fe0086cc351d4d80b8e66094d8965)
+  -- Solstice 
   
-  -- Eclipse [PDF article](http://delivery.acm.org/10.1145/2910000/2901479/p75-venkatakrishnan.pdf?ip=77.138.143.11&id=2901479&acc=CHORUS&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1533657400_dc57cfba781d5714a53e63ba74826fc2)
+  -- Eclipse 
   
   -- Lumos
   
