@@ -38,7 +38,7 @@ The repository contains implementations of four OCS scheduling algorithms:
     
 **analysis.py (python 2.7):** 
 
-Sets the parameters for 'decomp' e.g.:
+Sets the parameters for 'decomp'. For example:
 
   	params['trials'] = 100
   	params['delta'] = 25
