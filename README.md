@@ -48,7 +48,7 @@ Sets the parameters for 'decomp'. For example:
   	params['small_coeff'] = [1,16]
   	params['large_coeff'] = [16,100]
     
-'trails' - number of matrices to decompse
+'trails' - number of matrices to decompose
 
 'delta' - the switch reconfiguration time penalty (nominal value is 25 [ms])
 
