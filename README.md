@@ -38,13 +38,13 @@ The repository contains implementations of four OCS scheduling algorithms:
     analysis.py (python 2.7) - sets the parameters for 'decomp':
     
     e.g.:
-    	  params['trials'] = 100
-	  params['delta'] = 25
-	  params['matrix_dim'] = [96, 160, 384]
-	  params['small_flow_num'] = 48
-	  params['large_flow_num'] = 16
-	  params['small_coeff'] = [1,16]
-    	  params['large_coeff'] = [16,100]
+  	params['trials'] = 100
+  	params['delta'] = 25
+  	params['matrix_dim'] = [96, 160, 384]
+  	params['small_flow_num'] = 48
+  	params['large_flow_num'] = 16
+  	params['small_coeff'] = [1,16]
+  	params['large_coeff'] = [16,100]
     
 'trails' - number of matrices to decompse
 
