@@ -20,15 +20,15 @@ def reconfiguration_penalty_sweep(params):
 	trials = params['trials']
 	delta = params['delta']
 	matrix_dim = params['matrix_dim']
-	small_m  = params['small_m']
-	large_m  = params['large_m']
+	small_m  = params['small_flow_num']
+	large_m  = params['large_flow_num']
 	small_coeff  = params['small_coeff']
 	large_coeff  = params['large_coeff']
     
 	alg_num = 3
 
 	for size in matrix_dim:
-		call(["./decomp", str(trials), str(size), str(delta), str(small_m), str(large_m), str(small_coeff[0]), str(small_coeff[1]), str(large_coeff[0]), str(large_coeff[1])])
+		call(["./decomp", str(trials), str(size), str(delta), str(small_flow_num), str(large_flow_num), str(small_coeff[0]), str(small_coeff[1]), str(large_coeff[0]), str(large_coeff[1])])
 		log = open("./logfile.txt","r")
 		for num in range(alg_num):
 			line = log.readline().split(" ")
@@ -50,12 +50,12 @@ def main():
 	
 	params = {}
 	params['trials'] = 100
-	params['delta'] = 25
-	params['matrix_dim'] = [96, 160, 384]
-	params['small_m'] = 48
-	params['large_m'] = 16
-	params['small_coeff'] = [1,16]
-	params['large_coeff'] = [16,100]
+        params['delta'] = 25
+        params['matrix_dim'] = [96, 160, 384]
+        params['small_flow_num'] = 12
+        params['large_flow_num'] = 4
+        params['small_coeff'] = [1,16]
+        params['large_coeff'] = [16,100]
    
 	reconfiguration_penalty_sweep(params)
 
