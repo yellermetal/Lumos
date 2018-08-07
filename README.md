@@ -30,7 +30,7 @@ The repository contains implementations of four OCS scheduling algorithms:
     
    HopcroftKarp.c/.h - implementation of the Hopcroft-Karp bipartite matching algorithm [Wikipedia Article](https://en.wikipedia.org/wiki/Hopcroft%E2%80%93Karp_algorithm)
     
-   hungarian.c/.h - implementation of the linear minimum assignment (Hungarian algorithm) [Wikipedia Article](https://en.wikipedia.org/wiki/Hopcroft%E2%80%93Karp_algorithm) credit to: Cyrill Stachniss, 2004
+   hungarian.c/.h - implementation of the linear minimum assignment (Hungarian algorithm) [Wikipedia Article](https://en.wikipedia.org/wiki/Hopcroft%E2%80%93Karp_algorithm) credit to: Cyrill Stachniss, 2004 [GitHub Repository](https://github.com/losvald/libhungarian)
     
    lms_structs.c/.h and Resources.h - implementation of the 'lms_mat_t' sparse matrix representation. Denote the number of non-zero entries in the sparse matrix as 'nz', then every operation of 'lms_mat_t' has a theoretical running time of O(nz).
     
