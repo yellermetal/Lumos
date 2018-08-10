@@ -5,7 +5,7 @@ Dedicated repository for the Lumos scheduling technique implementation and evalu
 
 Ariel Livshits and Shay Vargaftik
 
-*IEEE Communication Letters, 2018.*
+*IEEE Communications Letters, 2018.*
 
 [Link to IEEE Digital Library Location](https://ieeexplore.ieee.org/document/8423619/)
 
